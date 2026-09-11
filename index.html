@@ -20,17 +20,37 @@
                 <h1>Something Awesome is Brewing</h1>
                 <h3>We are working hard to bring you something special.<br>Be the first to know when we launch.</h3>
             </div>
-            <div class="boxes">
-                <div class="days">05<br><span>DAYS</span></div>
-                <h1>:</h1>
-                <div class="hours">00<br><span>HOURS</span></div>
-                <h1>:</h1>
-                <div class="minutes">36<br><span>MINUTES</span></div>
-                <h1>:</h1>
-                <div class="seconds">41<br><span>SECONDS</span></div>
-            </div>
+
+            <section class="countdown">
+                <div class="time-block">
+                    <span class="time-value" id="days">00</span>
+                    <span class="time-label">Days</span>
+                </div>
+
+                <span class="separator">:</span>
+
+                <div class="time-block">
+                    <span class="time-value" id="hours">00</span>
+                    <span class="time-label">Hours</span>
+                </div>
+
+                <span class="separator">:</span>
+
+                <div class="time-block">
+                    <span class="time-value" id="minutes">00</span>
+                    <span class="time-label">Minutes</span>
+                </div>
+
+                <span class="separator">:</span>
+
+                <div class="time-block">
+                    <span class="time-value" id="seconds">00</span>
+                    <span class="time-label">Seconds</span>
+                </div>
+            </section>
+
             <div class="flex">
-                <div class="email">
+                <div id="email-form">
                     <i class="fa-regular fa-envelope" id="envelope"></i>
                     <input type="text" class="input-email" placeholder="Enter your email">
                 </div>
